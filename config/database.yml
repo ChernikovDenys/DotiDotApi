@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: 127.0.0.1
+
+development:
+  <<: *default
+  database: scraper_app_development
+
+test:
+  <<: *default
+  database: scraper_app_test
+
+production:
+  <<: *default
+  database: scraper_app_production
+  # username: scraper_app_prod_user
+  # password: <%= ENV['SCRAPER_APP_DATABASE_PASSWORD'] %>

@@ -8,6 +8,7 @@ The price is not displayed in plain HTML through standard selectors. It's most l
 
 But the information I were looking for in `keywords` is actually in a meta tag with the name="description" attribute. So this is the only area where I have succeeded
 
+Being honest, it doesn't work and require overhaul. But hey, I'll show you at least what I've done.
 
 * Ruby version
 
